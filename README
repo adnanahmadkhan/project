@@ -1,0 +1,22 @@
+Requirements to run this project:
+    1- You must have python 3.7 or higher installed (https://www.python.org/downloads/)
+    2- You must have pip3 installed
+    3- You must have sqlite3 installed (https://www.sqlite.org/download.html)
+    4- You must have the raw data placed inside the 'data' folder in the project directory
+        4.1- You will have this already if you clone the repository, otherwise copy the raw data 
+        after creating the desired sub-directory
+    5- You must have a project.db file inside the 'db' folder in the project directory
+        5.1- You will have this already if you clone the repository, otherwise create an empty file 
+        yourself after creating the desired sub-directory.
+
+How to run this project:
+    1- Open terminal, clone repository through git & navigate to the project directory
+    2- Run command 'pip install -r requirements.txt' to install all project dependencies
+    3- Run command 'python main.py' to run the project. If any errors arise, they will be shown. 
+    In case of success you see relevant messages on the console.
+
+
+How to run tests:
+    1- On the console navigate to the project directory
+    2- Run command 'pytest test_pipeline.py'. If tests fail, they will be shown on the console screen. 
+    Otherwise, you will see a success message meaning all tests passed.
